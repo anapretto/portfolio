@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Ana Pretto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Boxicons -->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+      <a href=""><img src="img/Pretto.png" alt="" class="logo"></a>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contatos" class="nav-btn">Contatos</a></li>
+          <li class="nav-social"><a href="https://github.com/anapretto" target="_blank"><i class='bx bxl-github'></i></a></li>
+          <li><a href="https://www.linkedin.com/in/ana-pretto/" target="_blank" class="nav-social"><i class='bx bxl-linkedin'></i></a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu-icon" onclick="menuShow()">
+        <img class="icon" src="img/open-menu.svg" alt="Menu lateral">
+      </div>
+    </div>
+
+    <!-- Menu Mobile -->
+    <div class="mobile-menu">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contatos" class="btn">Contatos</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Início -->
+  <section class="inicio" id="inicio">
+    <div class="inicio-container">
+      <div class="inicio-texto">
+        <h2>Meu nome é</h2>
+        <h1>Ana <span>Pretto.</span></h1>
+        <p>UX/UI Designer e estudante de Desenvolvimento <br> de Sistemas, me especializando na área de front-end.</p>
+        <a href="#sobre" class="btn">Sobre mim</a>
+        <a href="#sobre" class="btn">Acessar CV</a>
+      </div>
+
+      <div class="inicio-img">
+        <img src="img/inicio-eu.png" alt="Ana Pretto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section class="sobre" id="sobre">
+    <div class="sobre-container">
+      <div class="sobre-texto">
+        <h2>Sobre mim.</h2>
+        <p>Olá, Adoro novos desafios. <br> Atualmente estudante de desenvolvimento de sistemas, apaixonada por <strong>front-end</strong>, área na qual estou procurando novos conhecimentos a cada dia.</p>
+        <p> Procuro uma oportunidade de colocar o que tanto estudo em prática e <strong>aprender</strong> ainda mais.</p>
+        <a href="mailto:anacarolpretto@gmail.com" class="btn">Entrar em contato</a>
+      </div>
+
+      <div class="sobre-skills">
+        <h2>Meus <span>Conhecimentos.</span></h2>
+        <div class="skills">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">Bootstrap</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">jQuery</div>
+          <div class="skill">Figma</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projetos -->
+  <section class="projetos" id="projetos">
+
+    <div class="projetos-container">
+      <h2>Meus <span>Projetos.</span></h2>
+      <div class="projeto-container">
+        <div class="projeto">
+          <div class="projeto-img"><img src="img/projeto-bikcraft.png" alt="Projeto site BIkcraft"></div>
+          <h2>Bikcraft</h2>
+          <span>HTML, CSS</span>
+          <a href="https://github.com/anapretto/bikcraft" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+        <div class="projeto">
+          <div class="projeto-img"><img src="img/projeto-hexa.png" alt="Projeto Gerador de Hexadecimal"></div>
+          <h2>Gerador de Hexadecimal</h2>
+          <span>HTML, CSS, JavaScript</span>
+          <a href="https://github.com/anapretto/hexadecimal" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+        <div class="projeto">
+          <div class="projeto-img"><img src="img/projeto-flexblog.png" alt="Projeto site flexblog"></div>
+          <h2>FlexBlog</h2>
+          <span>HTML, CSS</span>
+          <a href="https://github.com/anapretto/flexblog" target="_blank"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contatos -->
+  <footer class="contatos" id="contatos">
+    <div class="contatos-container">
+      <p class="contatos-texto">Estou disponível para novos projetos no momento. <br> Entre em contato comigo e marcamos uma conversa 👋</p>
+      <div class="contatos-contato">
+        <div class="social">
+          <a href="https://github.com/anapretto" target="_blank"><i class='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/ana-pretto/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+          <a href="mailto:anacarolpretto@gmail.com" target="_blank"><i class='bx bx-envelope'></i></a>
+          <a href="https://api.whatsapp.com/send?phone=5548991591317&text=" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="contatos-copy">Desenvolvido por Ana Pretto</p>
+  </footer>
+
+
+
+  <script src="script/navbar.js"></script>
+</body>
+
+</html>
